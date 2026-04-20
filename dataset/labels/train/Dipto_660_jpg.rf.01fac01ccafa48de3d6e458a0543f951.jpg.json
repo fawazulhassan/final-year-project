@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6342790,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.515Z",
+            "updatedAt": "2023-06-13T23:42:59.515Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        249,
+                        245
+                    ],
+                    [
+                        256,
+                        265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342789,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.514Z",
+            "updatedAt": "2023-06-13T23:42:59.514Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        277,
+                        254
+                    ],
+                    [
+                        291,
+                        262
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342788,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.514Z",
+            "updatedAt": "2023-06-13T23:42:59.514Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        320,
+                        250
+                    ],
+                    [
+                        334,
+                        263
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342787,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.514Z",
+            "updatedAt": "2023-06-13T23:42:59.514Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        313,
+                        255
+                    ],
+                    [
+                        318,
+                        263
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342786,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.514Z",
+            "updatedAt": "2023-06-13T23:42:59.514Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        308,
+                        253
+                    ],
+                    [
+                        313,
+                        262
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342785,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.513Z",
+            "updatedAt": "2023-06-13T23:42:59.513Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        298,
+                        251
+                    ],
+                    [
+                        307,
+                        262
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

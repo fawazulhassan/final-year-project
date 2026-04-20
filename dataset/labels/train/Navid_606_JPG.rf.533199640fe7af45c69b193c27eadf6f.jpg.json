@@ -1,0 +1,202 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6332207,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.295Z",
+            "updatedAt": "2023-06-13T23:39:50.295Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        2,
+                        258
+                    ],
+                    [
+                        181,
+                        359
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332206,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.294Z",
+            "updatedAt": "2023-06-13T23:39:50.294Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        253,
+                        219
+                    ],
+                    [
+                        441,
+                        286
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332205,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.294Z",
+            "updatedAt": "2023-06-13T23:39:50.294Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        423,
+                        208
+                    ],
+                    [
+                        468,
+                        258
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332204,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.292Z",
+            "updatedAt": "2023-06-13T23:39:50.292Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        471,
+                        217
+                    ],
+                    [
+                        543,
+                        259
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332203,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.291Z",
+            "updatedAt": "2023-06-13T23:39:50.291Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        543,
+                        206
+                    ],
+                    [
+                        558,
+                        225
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332202,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.291Z",
+            "updatedAt": "2023-06-13T23:39:50.291Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        579,
+                        202
+                    ],
+                    [
+                        630,
+                        257
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332201,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.291Z",
+            "updatedAt": "2023-06-13T23:39:50.291Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        631,
+                        205
+                    ],
+                    [
+                        638,
+                        237
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332200,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:50.290Z",
+            "updatedAt": "2023-06-13T23:39:50.290Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        565,
+                        207
+                    ],
+                    [
+                        578,
+                        238
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

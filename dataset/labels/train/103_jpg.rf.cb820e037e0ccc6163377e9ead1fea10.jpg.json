@@ -1,0 +1,394 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 406,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6331528,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.341Z",
+            "updatedAt": "2023-06-13T23:39:34.341Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        258,
+                        232
+                    ],
+                    [
+                        293,
+                        267
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331527,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.340Z",
+            "updatedAt": "2023-06-13T23:39:34.340Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        414,
+                        211
+                    ],
+                    [
+                        425,
+                        226
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331526,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.340Z",
+            "updatedAt": "2023-06-13T23:39:34.340Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        284,
+                        170
+                    ],
+                    [
+                        310,
+                        203
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331525,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.340Z",
+            "updatedAt": "2023-06-13T23:39:34.340Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        42,
+                        253
+                    ],
+                    [
+                        87,
+                        284
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331524,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.338Z",
+            "updatedAt": "2023-06-13T23:39:34.338Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        369,
+                        184
+                    ],
+                    [
+                        390,
+                        203
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331523,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.338Z",
+            "updatedAt": "2023-06-13T23:39:34.338Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        339,
+                        164
+                    ],
+                    [
+                        348,
+                        175
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331522,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.337Z",
+            "updatedAt": "2023-06-13T23:39:34.337Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        375,
+                        147
+                    ],
+                    [
+                        392,
+                        165
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331521,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.337Z",
+            "updatedAt": "2023-06-13T23:39:34.337Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        341,
+                        148
+                    ],
+                    [
+                        351,
+                        156
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331520,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.337Z",
+            "updatedAt": "2023-06-13T23:39:34.337Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        194,
+                        165
+                    ],
+                    [
+                        227,
+                        188
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331519,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.336Z",
+            "updatedAt": "2023-06-13T23:39:34.336Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        225,
+                        155
+                    ],
+                    [
+                        248,
+                        173
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331518,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.336Z",
+            "updatedAt": "2023-06-13T23:39:34.336Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        248,
+                        147
+                    ],
+                    [
+                        265,
+                        164
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331517,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.335Z",
+            "updatedAt": "2023-06-13T23:39:34.335Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        258,
+                        172
+                    ],
+                    [
+                        262,
+                        178
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331516,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.335Z",
+            "updatedAt": "2023-06-13T23:39:34.335Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        272,
+                        153
+                    ],
+                    [
+                        277,
+                        160
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331515,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.335Z",
+            "updatedAt": "2023-06-13T23:39:34.335Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        298,
+                        145
+                    ],
+                    [
+                        308,
+                        156
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331514,
+            "classId": 8730,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.334Z",
+            "updatedAt": "2023-06-13T23:39:34.334Z",
+            "tags": [],
+            "classTitle": "wheelbarrow",
+            "points": {
+                "exterior": [
+                    [
+                        491,
+                        217
+                    ],
+                    [
+                        518,
+                        239
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331513,
+            "classId": 8730,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:34.334Z",
+            "updatedAt": "2023-06-13T23:39:34.334Z",
+            "tags": [],
+            "classTitle": "wheelbarrow",
+            "points": {
+                "exterior": [
+                    [
+                        203,
+                        189
+                    ],
+                    [
+                        218,
+                        201
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6330567,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.519Z",
+            "updatedAt": "2023-06-13T23:39:18.519Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        353,
+                        184
+                    ],
+                    [
+                        370,
+                        199
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330566,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.518Z",
+            "updatedAt": "2023-06-13T23:39:18.518Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        379,
+                        183
+                    ],
+                    [
+                        402,
+                        191
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330565,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.518Z",
+            "updatedAt": "2023-06-13T23:39:18.518Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        341,
+                        192
+                    ],
+                    [
+                        351,
+                        199
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330564,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.517Z",
+            "updatedAt": "2023-06-13T23:39:18.517Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        255,
+                        191
+                    ],
+                    [
+                        273,
+                        211
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330563,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.517Z",
+            "updatedAt": "2023-06-13T23:39:18.517Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        293,
+                        191
+                    ],
+                    [
+                        298,
+                        196
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6338753,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.817Z",
+            "updatedAt": "2023-06-13T23:41:48.817Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        119,
+                        17
+                    ],
+                    [
+                        356,
+                        154
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338752,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.816Z",
+            "updatedAt": "2023-06-13T23:41:48.816Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        461,
+                        123
+                    ],
+                    [
+                        639,
+                        237
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338751,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.816Z",
+            "updatedAt": "2023-06-13T23:41:48.816Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        216,
+                        149
+                    ],
+                    [
+                        629,
+                        356
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

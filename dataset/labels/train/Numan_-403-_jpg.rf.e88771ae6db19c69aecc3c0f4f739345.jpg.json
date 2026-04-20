@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6346206,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.131Z",
+            "updatedAt": "2023-06-13T23:44:00.131Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        210,
+                        254
+                    ],
+                    [
+                        230,
+                        274
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346205,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.131Z",
+            "updatedAt": "2023-06-13T23:44:00.131Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        259,
+                        256
+                    ],
+                    [
+                        268,
+                        266
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346204,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.131Z",
+            "updatedAt": "2023-06-13T23:44:00.131Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        249,
+                        250
+                    ],
+                    [
+                        259,
+                        263
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

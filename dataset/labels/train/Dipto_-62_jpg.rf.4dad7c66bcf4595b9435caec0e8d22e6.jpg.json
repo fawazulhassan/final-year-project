@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6328432,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:45.142Z",
+            "updatedAt": "2023-06-13T23:38:45.142Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        147,
+                        178
+                    ],
+                    [
+                        611,
+                        359
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328431,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:45.141Z",
+            "updatedAt": "2023-06-13T23:38:45.141Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        581,
+                        85
+                    ],
+                    [
+                        624,
+                        110
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328430,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:45.141Z",
+            "updatedAt": "2023-06-13T23:38:45.141Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        335,
+                        101
+                    ],
+                    [
+                        356,
+                        116
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328429,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:45.141Z",
+            "updatedAt": "2023-06-13T23:38:45.141Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        361,
+                        55
+                    ],
+                    [
+                        449,
+                        124
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328428,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:45.141Z",
+            "updatedAt": "2023-06-13T23:38:45.141Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        451,
+                        69
+                    ],
+                    [
+                        510,
+                        114
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

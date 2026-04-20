@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6333029,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:03.679Z",
+            "updatedAt": "2023-06-13T23:40:03.679Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        265,
+                        103
+                    ],
+                    [
+                        387,
+                        280
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333028,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:03.679Z",
+            "updatedAt": "2023-06-13T23:40:03.679Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        242,
+                        226
+                    ],
+                    [
+                        259,
+                        243
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6338160,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.660Z",
+            "updatedAt": "2023-06-13T23:41:36.660Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        281,
+                        109
+                    ],
+                    [
+                        289,
+                        128
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338159,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.660Z",
+            "updatedAt": "2023-06-13T23:41:36.660Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        326,
+                        105
+                    ],
+                    [
+                        331,
+                        108
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338158,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.660Z",
+            "updatedAt": "2023-06-13T23:41:36.660Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        307,
+                        102
+                    ],
+                    [
+                        313,
+                        109
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

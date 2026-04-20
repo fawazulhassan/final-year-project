@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 458
+    },
+    "objects": [
+        {
+            "id": 6334446,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:30.626Z",
+            "updatedAt": "2023-06-13T23:40:30.626Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        181,
+                        332
+                    ],
+                    [
+                        205,
+                        378
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334445,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:30.625Z",
+            "updatedAt": "2023-06-13T23:40:30.625Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        125,
+                        309
+                    ],
+                    [
+                        186,
+                        388
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334444,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:30.625Z",
+            "updatedAt": "2023-06-13T23:40:30.625Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        216,
+                        353
+                    ],
+                    [
+                        255,
+                        401
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

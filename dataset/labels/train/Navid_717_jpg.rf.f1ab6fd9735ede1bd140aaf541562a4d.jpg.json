@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6333557,
+            "classId": 8730,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.723Z",
+            "updatedAt": "2023-06-13T23:40:13.723Z",
+            "tags": [],
+            "classTitle": "wheelbarrow",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        209
+                    ],
+                    [
+                        128,
+                        332
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333556,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.723Z",
+            "updatedAt": "2023-06-13T23:40:13.723Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        99,
+                        133
+                    ],
+                    [
+                        109,
+                        152
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333555,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.723Z",
+            "updatedAt": "2023-06-13T23:40:13.723Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        137
+                    ],
+                    [
+                        65,
+                        157
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333554,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.722Z",
+            "updatedAt": "2023-06-13T23:40:13.722Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        65,
+                        137
+                    ],
+                    [
+                        73,
+                        147
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333553,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.722Z",
+            "updatedAt": "2023-06-13T23:40:13.722Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        80,
+                        136
+                    ],
+                    [
+                        91,
+                        145
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333552,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.722Z",
+            "updatedAt": "2023-06-13T23:40:13.722Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        73,
+                        135
+                    ],
+                    [
+                        80,
+                        144
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

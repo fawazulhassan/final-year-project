@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6344375,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.598Z",
+            "updatedAt": "2023-06-13T23:43:30.598Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        171,
+                        286
+                    ],
+                    [
+                        196,
+                        335
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344374,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.598Z",
+            "updatedAt": "2023-06-13T23:43:30.598Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        251,
+                        290
+                    ],
+                    [
+                        272,
+                        336
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344373,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.597Z",
+            "updatedAt": "2023-06-13T23:43:30.597Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        296,
+                        291
+                    ],
+                    [
+                        325,
+                        326
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344372,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.597Z",
+            "updatedAt": "2023-06-13T23:43:30.597Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        314,
+                        285
+                    ],
+                    [
+                        330,
+                        304
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344371,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.597Z",
+            "updatedAt": "2023-06-13T23:43:30.597Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        331,
+                        294
+                    ],
+                    [
+                        340,
+                        306
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

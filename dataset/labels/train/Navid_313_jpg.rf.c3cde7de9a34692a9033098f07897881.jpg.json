@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6336434,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:05.239Z",
+            "updatedAt": "2023-06-13T23:41:05.239Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        80,
+                        288
+                    ],
+                    [
+                        200,
+                        369
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6336433,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:05.239Z",
+            "updatedAt": "2023-06-13T23:41:05.239Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        281
+                    ],
+                    [
+                        59,
+                        353
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6336432,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:05.238Z",
+            "updatedAt": "2023-06-13T23:41:05.238Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        50,
+                        279
+                    ],
+                    [
+                        93,
+                        324
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6336431,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:05.238Z",
+            "updatedAt": "2023-06-13T23:41:05.238Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        32,
+                        257
+                    ],
+                    [
+                        67,
+                        280
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

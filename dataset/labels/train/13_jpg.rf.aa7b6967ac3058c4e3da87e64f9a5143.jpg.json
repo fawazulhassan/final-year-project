@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 480
+    },
+    "objects": [
+        {
+            "id": 6349313,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        341,
+                        256
+                    ],
+                    [
+                        478,
+                        509
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349312,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        92,
+                        344
+                    ],
+                    [
+                        347,
+                        522
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349311,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        245
+                    ],
+                    [
+                        76,
+                        536
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349310,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        104,
+                        340
+                    ],
+                    [
+                        149,
+                        415
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349309,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        87,
+                        370
+                    ],
+                    [
+                        105,
+                        408
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349308,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.594Z",
+            "updatedAt": "2023-06-13T23:44:48.594Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        77,
+                        330
+                    ],
+                    [
+                        258,
+                        360
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

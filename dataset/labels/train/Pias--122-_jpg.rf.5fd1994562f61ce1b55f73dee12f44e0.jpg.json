@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 359,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6338254,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.911Z",
+            "updatedAt": "2023-06-13T23:41:40.911Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        78,
+                        182
+                    ],
+                    [
+                        173,
+                        265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338253,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.911Z",
+            "updatedAt": "2023-06-13T23:41:40.911Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        513,
+                        195
+                    ],
+                    [
+                        574,
+                        222
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338252,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.911Z",
+            "updatedAt": "2023-06-13T23:41:40.911Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        485,
+                        195
+                    ],
+                    [
+                        516,
+                        218
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338251,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.910Z",
+            "updatedAt": "2023-06-13T23:41:40.910Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        415,
+                        189
+                    ],
+                    [
+                        437,
+                        208
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

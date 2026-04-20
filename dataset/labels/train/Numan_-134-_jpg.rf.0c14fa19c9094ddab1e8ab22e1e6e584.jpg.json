@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6342211,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.379Z",
+            "updatedAt": "2023-06-13T23:42:50.379Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        3,
+                        74
+                    ],
+                    [
+                        636,
+                        356
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342210,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.379Z",
+            "updatedAt": "2023-06-13T23:42:50.379Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        144,
+                        55
+                    ],
+                    [
+                        347,
+                        192
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342209,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.379Z",
+            "updatedAt": "2023-06-13T23:42:50.379Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        40
+                    ],
+                    [
+                        100,
+                        116
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342208,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.379Z",
+            "updatedAt": "2023-06-13T23:42:50.379Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        256,
+                        68
+                    ],
+                    [
+                        367,
+                        115
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342207,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.378Z",
+            "updatedAt": "2023-06-13T23:42:50.378Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        541,
+                        93
+                    ],
+                    [
+                        639,
+                        161
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

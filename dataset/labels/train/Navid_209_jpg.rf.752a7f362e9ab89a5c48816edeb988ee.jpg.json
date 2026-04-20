@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6330758,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.637Z",
+            "updatedAt": "2023-06-13T23:39:22.637Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        249,
+                        160
+                    ],
+                    [
+                        291,
+                        245
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330757,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.636Z",
+            "updatedAt": "2023-06-13T23:39:22.636Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        292,
+                        162
+                    ],
+                    [
+                        311,
+                        205
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330756,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.635Z",
+            "updatedAt": "2023-06-13T23:39:22.635Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        320,
+                        164
+                    ],
+                    [
+                        349,
+                        194
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330755,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.635Z",
+            "updatedAt": "2023-06-13T23:39:22.635Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        362,
+                        123
+                    ],
+                    [
+                        561,
+                        327
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330754,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.634Z",
+            "updatedAt": "2023-06-13T23:39:22.634Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        518,
+                        126
+                    ],
+                    [
+                        624,
+                        205
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330753,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.633Z",
+            "updatedAt": "2023-06-13T23:39:22.633Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        334,
+                        140
+                    ],
+                    [
+                        374,
+                        183
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

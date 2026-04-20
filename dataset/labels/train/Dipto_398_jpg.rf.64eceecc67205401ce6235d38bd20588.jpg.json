@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6335230,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:46.826Z",
+            "updatedAt": "2023-06-13T23:40:46.826Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        237,
+                        168
+                    ],
+                    [
+                        250,
+                        184
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6335229,
+            "classId": 8722,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:46.826Z",
+            "updatedAt": "2023-06-13T23:40:46.826Z",
+            "tags": [],
+            "classTitle": "policecar",
+            "points": {
+                "exterior": [
+                    [
+                        319,
+                        183
+                    ],
+                    [
+                        344,
+                        203
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6335228,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:46.826Z",
+            "updatedAt": "2023-06-13T23:40:46.826Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        6,
+                        15
+                    ],
+                    [
+                        633,
+                        359
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

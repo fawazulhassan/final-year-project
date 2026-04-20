@@ -1,0 +1,429 @@
+import os
+os.environ['QT_QPA_PLATFORM'] = 'xcb'
+
+import cv2
+import numpy as np
+import time
+import RPi.GPIO as GPIO
+from ultralytics import YOLO
+
+# ===========================
+#  CONFIGURATION
+# ===========================
+MODEL_PATH = "models/yolov8n.pt"
+
+# Timing constants
+DEFAULT_GREEN_TIME = 10
+EXTRA_TIME_PER_VEHICLE = 0.5
+MIN_GREEN_TIME = 5
+MAX_GREEN_TIME = 30
+YELLOW_TIME = 3
+ALL_RED_TIME = 2
+
+# Display settings
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
+
+# ===========================
+#  GPIO Traffic Light Setup
+# ===========================
+LIGHTS_CONFIG = {
+    'Lane 1': {'red': 26, 'yellow': 27, 'green': 22},
+    'Lane 2': {'red': 23, 'yellow': 4, 'green': 25}
+}
+
+# ===========================
+#  AUTO CAMERA DETECTION
+# ===========================
+def find_working_cameras(max_cameras=10):
+    """Automatically find working USB cameras"""
+    print("\n🔍 AUTO-DETECTING CAMERAS...")
+    print("="*60)
+    
+    working_cameras = []
+    
+    for idx in range(max_cameras):
+        cap = cv2.VideoCapture(idx)
+        
+        if cap.isOpened():
+            # Try to read a frame
+            ret, frame = cap.read()
+            if ret and frame is not None:
+                height, width = frame.shape[:2]
+                print(f"✅ Camera {idx}: WORKING ({width}x{height})")
+                working_cameras.append(idx)
+            else:
+                print(f"⚠️  Camera {idx}: Opened but no frames")
+            cap.release()
+        
+    print("="*60)
+    
+    if len(working_cameras) < 2:
+        print(f"❌ ERROR: Found only {len(working_cameras)} working camera(s)")
+        print(f"   Need at least 2 cameras for traffic system!")
+        return None
+    
+    print(f"\n✅ Found {len(working_cameras)} working cameras: {working_cameras}")
+    return working_cameras[:2]  # Use first 2 working cameras
+
+# ===========================
+#  Traffic Light Controller
+# ===========================
+class TrafficLightController:
+    def __init__(self, lights_config):
+        self.lights = lights_config
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setwarnings(False)
+        
+        for road in self.lights.values():
+            for pin in road.values():
+                GPIO.setup(pin, GPIO.OUT)
+                GPIO.output(pin, GPIO.LOW)
+        
+        self.set_all_red()
+    
+    def set_light(self, lane_name, color):
+        pins = self.lights[lane_name]
+        GPIO.output(pins['red'], GPIO.LOW)
+        GPIO.output(pins['yellow'], GPIO.LOW)
+        GPIO.output(pins['green'], GPIO.LOW)
+        
+        if color == 'RED':
+            GPIO.output(pins['red'], GPIO.HIGH)
+        elif color == 'YELLOW':
+            GPIO.output(pins['yellow'], GPIO.HIGH)
+        elif color == 'GREEN':
+            GPIO.output(pins['green'], GPIO.HIGH)
+    
+    def set_all_red(self):
+        for lane_name in self.lights.keys():
+            self.set_light(lane_name, 'RED')
+    
+    def cleanup(self):
+        GPIO.cleanup()
+
+# ===========================
+#  Vehicle Detector
+# ===========================
+class VehicleDetector:
+    def __init__(self, model_path):
+        print("\n📦 Loading YOLOv8 model...")
+        self.model = YOLO(model_path)
+        print("✅ Model loaded!\n")
+    
+    def detect_vehicles(self, frame, lane_name):
+        """Detect ALL objects as vehicles (for toy cars)"""
+        try:
+            # Run detection with lower confidence threshold for toy cars
+            results = self.model(frame, conf=0.25, verbose=False)
+            count = 0
+            
+            for result in results:
+                for box in result.boxes:
+                    count += 1
+                    cls_id = int(box.cls[0])
+                    class_name = self.model.names[cls_id]
+                    
+                    x1, y1, x2, y2 = map(int, box.xyxy[0])
+                    confidence = float(box.conf[0])
+                    
+                    # Draw bounding box
+                    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                    
+                    # Draw label
+                    label = f"{class_name} {confidence:.2f}"
+                    cv2.putText(frame, label, (x1, y1 - 10),
+                              cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            
+            # Display lane info
+            cv2.putText(frame, f"{lane_name}", (10, 30),
+                       cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+            cv2.putText(frame, f"Vehicles: {count}", (10, 70),
+                       cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
+            
+            return frame, count
+            
+        except Exception as e:
+            print(f"⚠️ Detection error in {lane_name}: {e}")
+            cv2.putText(frame, f"Detection Error", (10, 110),
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+            return frame, 0
+
+# ===========================
+#  Camera Manager
+# ===========================
+class CameraManager:
+    def __init__(self, camera_indices):
+        self.camera_indices = camera_indices
+        self.caps = []
+        self.initialize_cameras()
+    
+    def initialize_cameras(self):
+        """Open cameras with proper settings"""
+        print("\n📹 INITIALIZING CAMERAS...")
+        print("="*60)
+        
+        for idx in self.camera_indices:
+            print(f"Opening Camera {idx}...", end=" ")
+            
+            # Open camera with CAP_V4L2 backend for better compatibility
+            cap = cv2.VideoCapture(idx, cv2.CAP_V4L2)
+            
+            if cap.isOpened():
+                # Set properties
+                cap.set(cv2.CAP_PROP_FRAME_WIDTH, FRAME_WIDTH)
+                cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
+                cap.set(cv2.CAP_PROP_FPS, 20)  # Lower FPS for stability
+                cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)  # Minimal buffer
+                cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
+                
+                # Warm up camera - read a few frames
+                for _ in range(5):
+                    cap.read()
+                
+                # Test read
+                ret, test_frame = cap.read()
+                if ret and test_frame is not None:
+                    h, w = test_frame.shape[:2]
+                    print(f"✅ OK ({w}x{h})")
+                else:
+                    print(f"⚠️  Opened but cannot read")
+            else:
+                print(f"❌ FAILED")
+            
+            self.caps.append(cap)
+        
+        print("="*60 + "\n")
+    
+    def read_frame(self, cap_index):
+        """Read LIVE frame from camera with error handling"""
+        if cap_index >= len(self.caps):
+            return self._error_frame(f"Invalid camera index {cap_index}")
+        
+        cap = self.caps[cap_index]
+        cam_id = self.camera_indices[cap_index]
+        
+        if not cap.isOpened():
+            return self._error_frame(f"Camera {cam_id} not opened!")
+        
+        # Try reading frame
+        ret, frame = cap.read()
+        
+        if not ret or frame is None:
+            # Try to reconnect
+            print(f"⚠️  Camera {cam_id} read failed, attempting reconnect...")
+            cap.release()
+            cap = cv2.VideoCapture(cam_id, cv2.CAP_V4L2)
+            self.caps[cap_index] = cap
+            
+            ret, frame = cap.read()
+            if not ret or frame is None:
+                return self._error_frame(f"Camera {cam_id}: NO SIGNAL")
+        
+        # Resize if needed
+        if frame.shape[1] != FRAME_WIDTH or frame.shape[0] != FRAME_HEIGHT:
+            frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
+        
+        return frame
+    
+    def _error_frame(self, message):
+        """Create error frame with message"""
+        frame = np.zeros((FRAME_HEIGHT, FRAME_WIDTH, 3), dtype=np.uint8)
+        
+        # Draw red border
+        cv2.rectangle(frame, (0, 0), (FRAME_WIDTH-1, FRAME_HEIGHT-1), (0, 0, 255), 5)
+        
+        # Add error text
+        cv2.putText(frame, "CAMERA ERROR", (FRAME_WIDTH//2 - 100, FRAME_HEIGHT//2 - 20),
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
+        cv2.putText(frame, message, (20, FRAME_HEIGHT//2 + 20),
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
+        
+        return frame
+    
+    def release_all(self):
+        """Release all cameras"""
+        for cap in self.caps:
+            if cap.isOpened():
+                cap.release()
+
+# ===========================
+#  Smart Traffic System
+# ===========================
+class SmartTrafficSystem:
+    def __init__(self, camera_indices):
+        print("\n" + "="*60)
+        print("🚦 INITIALIZING SMART TRAFFIC SYSTEM")
+        print("="*60)
+        
+        self.camera_indices = camera_indices
+        self.detector = VehicleDetector(MODEL_PATH)
+        self.camera_manager = CameraManager(camera_indices)
+        self.light_controller = TrafficLightController(LIGHTS_CONFIG)
+        
+        self.lane_status = {
+            "Lane 1": {"count": 0, "time": DEFAULT_GREEN_TIME, "camera_idx": camera_indices[0]},
+            "Lane 2": {"count": 0, "time": DEFAULT_GREEN_TIME, "camera_idx": camera_indices[1]}
+        }
+        
+        print("✅ System Ready!\n")
+    
+    def scan_all_lanes(self):
+        """Scan all lanes with LIVE camera feed"""
+        frames = []
+        
+        for i, (lane_name, lane_info) in enumerate(self.lane_status.items()):
+            # Read LIVE frame
+            frame = self.camera_manager.read_frame(i)
+            
+            # Detect vehicles in LIVE frame
+            annotated_frame, count = self.detector.detect_vehicles(frame.copy(), lane_name)
+            
+            # Show camera info
+            cam_idx = lane_info["camera_idx"]
+            cv2.putText(annotated_frame, f"Cam {cam_idx}", (FRAME_WIDTH - 100, 30),
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 255), 2)
+            
+            # Update status
+            self.lane_status[lane_name]["count"] = count
+            green_time = DEFAULT_GREEN_TIME + (count * EXTRA_TIME_PER_VEHICLE)
+            green_time = max(MIN_GREEN_TIME, min(green_time, MAX_GREEN_TIME))
+            self.lane_status[lane_name]["time"] = green_time
+            
+            frames.append(annotated_frame)
+        
+        return frames
+    
+    def display_grid(self, frames):
+        """Show both camera feeds side-by-side"""
+        grid = np.hstack(frames)
+        
+        # Add info bar at bottom
+        cam1, cam2 = self.camera_indices
+        info = f"LIVE | Camera {cam1} (Lane 1) | Camera {cam2} (Lane 2) | Press 'q' to quit"
+        cv2.putText(grid, info, (10, grid.shape[0] - 20),
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 0), 2)
+        
+        cv2.imshow("Smart Traffic System - LIVE FEED", grid)
+    
+    def get_priority_order(self):
+        """Priority: Most vehicles first"""
+        return sorted(
+            self.lane_status.keys(),
+            key=lambda x: self.lane_status[x]["count"],
+            reverse=True
+        )
+    
+    def execute_light_cycle(self):
+        """Execute traffic light cycle"""
+        priority_lanes = self.get_priority_order()
+        
+        print("\n" + "="*60)
+        print("🚦 TRAFFIC CYCLE")
+        print("="*60)
+        for i, lane in enumerate(priority_lanes, 1):
+            count = self.lane_status[lane]["count"]
+            cam_idx = self.lane_status[lane]["camera_idx"]
+            print(f"{i}. {lane} (Camera {cam_idx}): {count} vehicles")
+        print("="*60)
+        
+        for lane in priority_lanes:
+            green_time = self.lane_status[lane]["time"]
+            vehicle_count = self.lane_status[lane]["count"]
+            
+            print(f"\n🟢 {lane} → GREEN ({green_time:.1f}s, {vehicle_count} vehicles)")
+            self.light_controller.set_light(lane, 'GREEN')
+            
+            # GREEN phase with live updates
+            start = time.time()
+            while time.time() - start < green_time:
+                frames = self.scan_all_lanes()
+                self.display_grid(frames)
+                if cv2.waitKey(30) & 0xFF == ord('q'):
+                    raise KeyboardInterrupt
+            
+            # YELLOW phase
+            print(f"🟡 {lane} → YELLOW ({YELLOW_TIME}s)")
+            self.light_controller.set_light(lane, 'YELLOW')
+            
+            start = time.time()
+            while time.time() - start < YELLOW_TIME:
+                frames = self.scan_all_lanes()
+                self.display_grid(frames)
+                if cv2.waitKey(30) & 0xFF == ord('q'):
+                    raise KeyboardInterrupt
+            
+            # RED phase
+            print(f"🔴 {lane} → RED")
+            self.light_controller.set_light(lane, 'RED')
+            
+            if lane != priority_lanes[-1]:
+                time.sleep(ALL_RED_TIME)
+    
+    def run(self):
+        """Main loop"""
+        print("\n" + "="*60)
+        print("🚦 SYSTEM RUNNING")
+        print("="*60)
+        print("✓ Using LIVE camera feeds")
+        print(f"✓ Cameras: {self.camera_indices}")
+        print("✓ Detection: Active")
+        print("\nPress 'q' to quit")
+        print("="*60 + "\n")
+        
+        try:
+            # Initial scan
+            print("📊 Initial scan...")
+            frames = self.scan_all_lanes()
+            self.display_grid(frames)
+            cv2.waitKey(2000)
+            
+            # Main loop
+            while True:
+                frames = self.scan_all_lanes()
+                self.display_grid(frames)
+                
+                if cv2.waitKey(100) & 0xFF == ord('q'):
+                    break
+                
+                self.execute_light_cycle()
+                
+        except KeyboardInterrupt:
+            print("\n\n⚠️ Stopped by user")
+        except Exception as e:
+            print(f"\n\n❌ Error: {e}")
+            import traceback
+            traceback.print_exc()
+        finally:
+            self.cleanup()
+    
+    def cleanup(self):
+        print("\n🧹 Cleaning up...")
+        self.camera_manager.release_all()
+        self.light_controller.cleanup()
+        cv2.destroyAllWindows()
+        print("✅ Done!\n")
+
+# ===========================
+#  MAIN
+# ===========================
+if __name__ == "__main__":
+    # Auto-detect working cameras
+    cameras = find_working_cameras(max_cameras=10)
+    
+    if cameras is None or len(cameras) < 2:
+        print("\n❌ ERROR: Cannot start system without 2 working cameras!")
+        print("\n💡 TROUBLESHOOTING TIPS:")
+        print("   1. Check USB camera connections")
+        print("   2. Run: ls -l /dev/video*")
+        print("   3. Run: v4l2-ctl --list-devices")
+        print("   4. Try: sudo modprobe bcm2835-v4l2")
+        exit(1)
+    
+    print(f"\n🎯 Using cameras: {cameras}")
+    
+    # Start system with detected cameras
+    system = SmartTrafficSystem(cameras)
+    system.run()
+
+

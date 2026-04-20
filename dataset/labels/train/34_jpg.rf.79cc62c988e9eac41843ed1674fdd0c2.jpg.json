@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6348626,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.535Z",
+            "updatedAt": "2023-06-13T23:44:41.535Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        453,
+                        309
+                    ],
+                    [
+                        639,
+                        517
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348625,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.535Z",
+            "updatedAt": "2023-06-13T23:44:41.535Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        88,
+                        392
+                    ],
+                    [
+                        188,
+                        530
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348624,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.534Z",
+            "updatedAt": "2023-06-13T23:44:41.534Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        231,
+                        318
+                    ],
+                    [
+                        484,
+                        422
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348623,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.534Z",
+            "updatedAt": "2023-06-13T23:44:41.534Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        338
+                    ],
+                    [
+                        20,
+                        372
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348622,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.534Z",
+            "updatedAt": "2023-06-13T23:44:41.534Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        39,
+                        366
+                    ],
+                    [
+                        139,
+                        416
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348621,
+            "classId": 8717,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.534Z",
+            "updatedAt": "2023-06-13T23:44:41.534Z",
+            "tags": [],
+            "classTitle": "human hauler",
+            "points": {
+                "exterior": [
+                    [
+                        113,
+                        339
+                    ],
+                    [
+                        189,
+                        383
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

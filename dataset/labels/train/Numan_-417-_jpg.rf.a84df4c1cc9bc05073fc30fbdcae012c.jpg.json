@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6328866,
+            "classId": 8726,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:54.367Z",
+            "updatedAt": "2023-06-13T23:38:54.367Z",
+            "tags": [],
+            "classTitle": "taxi",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        256
+                    ],
+                    [
+                        118,
+                        335
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328865,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:54.367Z",
+            "updatedAt": "2023-06-13T23:38:54.367Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        190,
+                        266
+                    ],
+                    [
+                        261,
+                        341
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328864,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:54.367Z",
+            "updatedAt": "2023-06-13T23:38:54.367Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        252,
+                        270
+                    ],
+                    [
+                        281,
+                        308
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328863,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:54.367Z",
+            "updatedAt": "2023-06-13T23:38:54.367Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        299,
+                        278
+                    ],
+                    [
+                        337,
+                        306
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328862,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:54.366Z",
+            "updatedAt": "2023-06-13T23:38:54.366Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        344,
+                        277
+                    ],
+                    [
+                        358,
+                        295
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 435,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6340081,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.700Z",
+            "updatedAt": "2023-06-13T23:42:15.700Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        394,
+                        7
+                    ],
+                    [
+                        469,
+                        97
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340080,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.700Z",
+            "updatedAt": "2023-06-13T23:42:15.700Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        479,
+                        16
+                    ],
+                    [
+                        638,
+                        174
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340079,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.699Z",
+            "updatedAt": "2023-06-13T23:42:15.699Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        127,
+                        0
+                    ],
+                    [
+                        360,
+                        85
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

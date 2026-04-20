@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6347042,
+            "classId": 8724,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:12.132Z",
+            "updatedAt": "2023-06-13T23:44:12.132Z",
+            "tags": [],
+            "classTitle": "scooter",
+            "points": {
+                "exterior": [
+                    [
+                        74,
+                        239
+                    ],
+                    [
+                        82,
+                        257
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347041,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:12.132Z",
+            "updatedAt": "2023-06-13T23:44:12.132Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        63,
+                        238
+                    ],
+                    [
+                        68,
+                        245
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347040,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:12.132Z",
+            "updatedAt": "2023-06-13T23:44:12.132Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        51,
+                        234
+                    ],
+                    [
+                        58,
+                        242
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347039,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:12.132Z",
+            "updatedAt": "2023-06-13T23:44:12.132Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        73,
+                        231
+                    ],
+                    [
+                        85,
+                        241
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347038,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:12.131Z",
+            "updatedAt": "2023-06-13T23:44:12.131Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        16,
+                        237
+                    ],
+                    [
+                        21,
+                        245
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

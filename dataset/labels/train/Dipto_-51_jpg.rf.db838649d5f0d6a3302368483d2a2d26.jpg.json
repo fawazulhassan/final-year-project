@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6339684,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:08.649Z",
+            "updatedAt": "2023-06-13T23:42:08.649Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        136,
+                        178
+                    ],
+                    [
+                        583,
+                        357
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339683,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:08.649Z",
+            "updatedAt": "2023-06-13T23:42:08.649Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        306,
+                        91
+                    ],
+                    [
+                        339,
+                        156
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339682,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:08.648Z",
+            "updatedAt": "2023-06-13T23:42:08.648Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        352,
+                        97
+                    ],
+                    [
+                        372,
+                        107
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339681,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:08.648Z",
+            "updatedAt": "2023-06-13T23:42:08.648Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        8,
+                        101
+                    ],
+                    [
+                        95,
+                        109
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

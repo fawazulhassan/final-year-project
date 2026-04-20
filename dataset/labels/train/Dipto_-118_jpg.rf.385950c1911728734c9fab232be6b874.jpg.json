@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 301,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6341121,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:33.284Z",
+            "updatedAt": "2023-06-13T23:42:33.284Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        227,
+                        59
+                    ],
+                    [
+                        352,
+                        247
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6341120,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:33.283Z",
+            "updatedAt": "2023-06-13T23:42:33.283Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        116,
+                        167
+                    ],
+                    [
+                        229,
+                        299
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

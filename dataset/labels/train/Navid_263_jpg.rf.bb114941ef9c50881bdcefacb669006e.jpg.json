@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 274,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6343141,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.977Z",
+            "updatedAt": "2023-06-13T23:43:08.977Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        183,
+                        96
+                    ],
+                    [
+                        296,
+                        236
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343140,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.977Z",
+            "updatedAt": "2023-06-13T23:43:08.977Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        270,
+                        62
+                    ],
+                    [
+                        338,
+                        146
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343139,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.977Z",
+            "updatedAt": "2023-06-13T23:43:08.977Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        388,
+                        52
+                    ],
+                    [
+                        415,
+                        80
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343138,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.976Z",
+            "updatedAt": "2023-06-13T23:43:08.976Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        135,
+                        126
+                    ],
+                    [
+                        192,
+                        191
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343137,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.976Z",
+            "updatedAt": "2023-06-13T23:43:08.976Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        11,
+                        74
+                    ],
+                    [
+                        137,
+                        191
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343136,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:08.976Z",
+            "updatedAt": "2023-06-13T23:43:08.976Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        244,
+                        78
+                    ],
+                    [
+                        271,
+                        98
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

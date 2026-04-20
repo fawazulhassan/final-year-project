@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 397,
+        "width": 639
+    },
+    "objects": [
+        {
+            "id": 6347418,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.391Z",
+            "updatedAt": "2023-06-13T23:44:20.391Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        362,
+                        90
+                    ],
+                    [
+                        385,
+                        114
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347417,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.391Z",
+            "updatedAt": "2023-06-13T23:44:20.391Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        400,
+                        79
+                    ],
+                    [
+                        454,
+                        140
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347416,
+            "classId": 8711,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.390Z",
+            "updatedAt": "2023-06-13T23:44:20.390Z",
+            "tags": [],
+            "classTitle": "army vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        117
+                    ],
+                    [
+                        576,
+                        162
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347415,
+            "classId": 8711,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.390Z",
+            "updatedAt": "2023-06-13T23:44:20.390Z",
+            "tags": [],
+            "classTitle": "army vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        457,
+                        106
+                    ],
+                    [
+                        481,
+                        131
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347414,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.390Z",
+            "updatedAt": "2023-06-13T23:44:20.390Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        482,
+                        109
+                    ],
+                    [
+                        503,
+                        131
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

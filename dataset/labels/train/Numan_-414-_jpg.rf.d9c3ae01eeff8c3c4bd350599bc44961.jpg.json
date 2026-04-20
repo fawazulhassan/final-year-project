@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6340004,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.694Z",
+            "updatedAt": "2023-06-13T23:42:15.694Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        234,
+                        245
+                    ],
+                    [
+                        267,
+                        282
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340003,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.693Z",
+            "updatedAt": "2023-06-13T23:42:15.693Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        291,
+                        246
+                    ],
+                    [
+                        323,
+                        277
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340002,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.692Z",
+            "updatedAt": "2023-06-13T23:42:15.692Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        345,
+                        250
+                    ],
+                    [
+                        356,
+                        267
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340001,
+            "classId": 8726,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.692Z",
+            "updatedAt": "2023-06-13T23:42:15.692Z",
+            "tags": [],
+            "classTitle": "taxi",
+            "points": {
+                "exterior": [
+                    [
+                        320,
+                        251
+                    ],
+                    [
+                        331,
+                        265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340000,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:15.692Z",
+            "updatedAt": "2023-06-13T23:42:15.692Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        337,
+                        252
+                    ],
+                    [
+                        346,
+                        263
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

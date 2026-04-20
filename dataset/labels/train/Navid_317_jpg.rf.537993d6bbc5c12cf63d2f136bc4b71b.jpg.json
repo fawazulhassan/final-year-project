@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6339853,
+            "classId": 8717,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.096Z",
+            "updatedAt": "2023-06-13T23:42:12.096Z",
+            "tags": [],
+            "classTitle": "human hauler",
+            "points": {
+                "exterior": [
+                    [
+                        4,
+                        272
+                    ],
+                    [
+                        115,
+                        458
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339852,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.095Z",
+            "updatedAt": "2023-06-13T23:42:12.095Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        127,
+                        301
+                    ],
+                    [
+                        250,
+                        432
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

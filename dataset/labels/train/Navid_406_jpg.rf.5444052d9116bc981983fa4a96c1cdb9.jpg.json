@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6330558,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.517Z",
+            "updatedAt": "2023-06-13T23:39:18.517Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        167,
+                        327
+                    ],
+                    [
+                        184,
+                        386
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330557,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.517Z",
+            "updatedAt": "2023-06-13T23:39:18.517Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        299,
+                        332
+                    ],
+                    [
+                        317,
+                        371
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330556,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.517Z",
+            "updatedAt": "2023-06-13T23:39:18.517Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        338,
+                        335
+                    ],
+                    [
+                        354,
+                        367
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330555,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:18.516Z",
+            "updatedAt": "2023-06-13T23:39:18.516Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        205,
+                        347
+                    ],
+                    [
+                        238,
+                        366
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

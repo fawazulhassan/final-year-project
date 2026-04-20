@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 636
+    },
+    "objects": [
+        {
+            "id": 6339587,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.529Z",
+            "updatedAt": "2023-06-13T23:42:04.529Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        90,
+                        218
+                    ],
+                    [
+                        351,
+                        455
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339586,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.529Z",
+            "updatedAt": "2023-06-13T23:42:04.529Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        451,
+                        323
+                    ],
+                    [
+                        497,
+                        356
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339585,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.528Z",
+            "updatedAt": "2023-06-13T23:42:04.528Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        592,
+                        309
+                    ],
+                    [
+                        633,
+                        410
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339584,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.528Z",
+            "updatedAt": "2023-06-13T23:42:04.528Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        533,
+                        321
+                    ],
+                    [
+                        544,
+                        336
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339583,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.528Z",
+            "updatedAt": "2023-06-13T23:42:04.528Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        362,
+                        318
+                    ],
+                    [
+                        374,
+                        346
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339582,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.527Z",
+            "updatedAt": "2023-06-13T23:42:04.527Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        409,
+                        319
+                    ],
+                    [
+                        424,
+                        336
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

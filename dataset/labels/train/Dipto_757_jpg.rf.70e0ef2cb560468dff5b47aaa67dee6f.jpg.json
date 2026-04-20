@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 457
+    },
+    "objects": [
+        {
+            "id": 6330655,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.613Z",
+            "updatedAt": "2023-06-13T23:39:22.613Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        200,
+                        375
+                    ],
+                    [
+                        248,
+                        430
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330654,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.613Z",
+            "updatedAt": "2023-06-13T23:39:22.613Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        163,
+                        393
+                    ],
+                    [
+                        179,
+                        413
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

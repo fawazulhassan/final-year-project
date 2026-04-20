@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 374,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6344500,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.606Z",
+            "updatedAt": "2023-06-13T23:43:30.606Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        375,
+                        13
+                    ],
+                    [
+                        524,
+                        189
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344499,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:30.606Z",
+            "updatedAt": "2023-06-13T23:43:30.606Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        564,
+                        82
+                    ],
+                    [
+                        580,
+                        93
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6348674,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.539Z",
+            "updatedAt": "2023-06-13T23:44:41.539Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        104,
+                        196
+                    ],
+                    [
+                        199,
+                        309
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348673,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.539Z",
+            "updatedAt": "2023-06-13T23:44:41.539Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        141
+                    ],
+                    [
+                        56,
+                        329
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348672,
+            "classId": 8722,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.539Z",
+            "updatedAt": "2023-06-13T23:44:41.539Z",
+            "tags": [],
+            "classTitle": "policecar",
+            "points": {
+                "exterior": [
+                    [
+                        234,
+                        192
+                    ],
+                    [
+                        276,
+                        243
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348671,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.537Z",
+            "updatedAt": "2023-06-13T23:44:41.537Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        275,
+                        183
+                    ],
+                    [
+                        344,
+                        254
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348670,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.537Z",
+            "updatedAt": "2023-06-13T23:44:41.537Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        350,
+                        194
+                    ],
+                    [
+                        412,
+                        241
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

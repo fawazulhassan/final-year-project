@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 459
+    },
+    "objects": [
+        {
+            "id": 6342598,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.505Z",
+            "updatedAt": "2023-06-13T23:42:59.505Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        47,
+                        289
+                    ],
+                    [
+                        91,
+                        350
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342597,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.505Z",
+            "updatedAt": "2023-06-13T23:42:59.505Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        136,
+                        259
+                    ],
+                    [
+                        256,
+                        403
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342596,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.505Z",
+            "updatedAt": "2023-06-13T23:42:59.505Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        345,
+                        351
+                    ],
+                    [
+                        456,
+                        524
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342595,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.504Z",
+            "updatedAt": "2023-06-13T23:42:59.504Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        301
+                    ],
+                    [
+                        25,
+                        348
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342594,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:59.504Z",
+            "updatedAt": "2023-06-13T23:42:59.504Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        97,
+                        292
+                    ],
+                    [
+                        133,
+                        353
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

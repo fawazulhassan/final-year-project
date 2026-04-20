@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 461
+    },
+    "objects": [
+        {
+            "id": 6328721,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:50.404Z",
+            "updatedAt": "2023-06-13T23:38:50.404Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        203,
+                        401
+                    ],
+                    [
+                        271,
+                        503
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328720,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:50.404Z",
+            "updatedAt": "2023-06-13T23:38:50.404Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        418,
+                        414
+                    ],
+                    [
+                        458,
+                        499
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6328719,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:38:50.403Z",
+            "updatedAt": "2023-06-13T23:38:50.403Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        251,
+                        347
+                    ],
+                    [
+                        324,
+                        440
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

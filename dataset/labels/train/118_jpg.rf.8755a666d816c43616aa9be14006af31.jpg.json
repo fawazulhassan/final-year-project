@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 479
+    },
+    "objects": [
+        {
+            "id": 6342858,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:04.223Z",
+            "updatedAt": "2023-06-13T23:43:04.223Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        262,
+                        304
+                    ],
+                    [
+                        476,
+                        463
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342857,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:04.223Z",
+            "updatedAt": "2023-06-13T23:43:04.223Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        87,
+                        317
+                    ],
+                    [
+                        155,
+                        471
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342856,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:04.222Z",
+            "updatedAt": "2023-06-13T23:43:04.222Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        122,
+                        317
+                    ],
+                    [
+                        163,
+                        425
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342855,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:04.222Z",
+            "updatedAt": "2023-06-13T23:43:04.222Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        76,
+                        321
+                    ],
+                    [
+                        107,
+                        393
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342854,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:04.220Z",
+            "updatedAt": "2023-06-13T23:43:04.220Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        143,
+                        268
+                    ],
+                    [
+                        269,
+                        404
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

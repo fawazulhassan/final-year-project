@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 535
+    },
+    "objects": [
+        {
+            "id": 6337832,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:33.211Z",
+            "updatedAt": "2023-06-13T23:41:33.211Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        14,
+                        390
+                    ],
+                    [
+                        96,
+                        469
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337831,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:33.210Z",
+            "updatedAt": "2023-06-13T23:41:33.210Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        224,
+                        398
+                    ],
+                    [
+                        257,
+                        428
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

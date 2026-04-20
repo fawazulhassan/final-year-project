@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 454
+    },
+    "objects": [
+        {
+            "id": 6339847,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.094Z",
+            "updatedAt": "2023-06-13T23:42:12.094Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        118,
+                        322
+                    ],
+                    [
+                        143,
+                        362
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339846,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.094Z",
+            "updatedAt": "2023-06-13T23:42:12.094Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        145,
+                        297
+                    ],
+                    [
+                        222,
+                        378
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339845,
+            "classId": 8710,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.093Z",
+            "updatedAt": "2023-06-13T23:42:12.093Z",
+            "tags": [],
+            "classTitle": "ambulance",
+            "points": {
+                "exterior": [
+                    [
+                        165,
+                        342
+                    ],
+                    [
+                        264,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339844,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.092Z",
+            "updatedAt": "2023-06-13T23:42:12.092Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        304,
+                        371
+                    ],
+                    [
+                        446,
+                        516
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339843,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:12.092Z",
+            "updatedAt": "2023-06-13T23:42:12.092Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        101,
+                        340
+                    ],
+                    [
+                        117,
+                        369
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

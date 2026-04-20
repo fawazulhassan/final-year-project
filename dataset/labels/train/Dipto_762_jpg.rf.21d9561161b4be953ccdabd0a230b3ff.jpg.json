@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 470
+    },
+    "objects": [
+        {
+            "id": 6331893,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:41.971Z",
+            "updatedAt": "2023-06-13T23:39:41.971Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        169,
+                        367
+                    ],
+                    [
+                        206,
+                        415
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331892,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:41.971Z",
+            "updatedAt": "2023-06-13T23:39:41.971Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        299,
+                        366
+                    ],
+                    [
+                        349,
+                        406
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331891,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:41.971Z",
+            "updatedAt": "2023-06-13T23:39:41.971Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        157,
+                        359
+                    ],
+                    [
+                        174,
+                        376
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6331890,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:41.971Z",
+            "updatedAt": "2023-06-13T23:39:41.971Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        211,
+                        362
+                    ],
+                    [
+                        227,
+                        380
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6332072,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:46.772Z",
+            "updatedAt": "2023-06-13T23:39:46.772Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        241
+                    ],
+                    [
+                        201,
+                        521
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332071,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:46.772Z",
+            "updatedAt": "2023-06-13T23:39:46.772Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        213,
+                        288
+                    ],
+                    [
+                        264,
+                        338
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332070,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:46.772Z",
+            "updatedAt": "2023-06-13T23:39:46.772Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        277,
+                        298
+                    ],
+                    [
+                        320,
+                        328
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6332069,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:46.772Z",
+            "updatedAt": "2023-06-13T23:39:46.772Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        260,
+                        294
+                    ],
+                    [
+                        281,
+                        319
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

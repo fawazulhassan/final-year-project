@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 488
+    },
+    "objects": [
+        {
+            "id": 6343387,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:14.664Z",
+            "updatedAt": "2023-06-13T23:43:14.664Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        197,
+                        429
+                    ],
+                    [
+                        238,
+                        472
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343386,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:14.663Z",
+            "updatedAt": "2023-06-13T23:43:14.663Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        328,
+                        443
+                    ],
+                    [
+                        366,
+                        499
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

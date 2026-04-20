@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 456
+    },
+    "objects": [
+        {
+            "id": 6334596,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:34.452Z",
+            "updatedAt": "2023-06-13T23:40:34.452Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        346,
+                        387
+                    ],
+                    [
+                        451,
+                        462
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334595,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:34.451Z",
+            "updatedAt": "2023-06-13T23:40:34.451Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        234,
+                        388
+                    ],
+                    [
+                        278,
+                        446
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334594,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:34.451Z",
+            "updatedAt": "2023-06-13T23:40:34.451Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        137,
+                        380
+                    ],
+                    [
+                        164,
+                        415
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

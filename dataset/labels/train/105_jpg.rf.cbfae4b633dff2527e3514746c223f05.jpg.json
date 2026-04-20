@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 477
+    },
+    "objects": [
+        {
+            "id": 6344220,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:27.465Z",
+            "updatedAt": "2023-06-13T23:43:27.465Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        285
+                    ],
+                    [
+                        172,
+                        436
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344219,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:27.465Z",
+            "updatedAt": "2023-06-13T23:43:27.465Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        174,
+                        317
+                    ],
+                    [
+                        258,
+                        416
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6344218,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:27.464Z",
+            "updatedAt": "2023-06-13T23:43:27.464Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        209,
+                        317
+                    ],
+                    [
+                        475,
+                        567
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 477
+    },
+    "objects": [
+        {
+            "id": 6330752,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.637Z",
+            "updatedAt": "2023-06-13T23:39:22.637Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        241,
+                        374
+                    ],
+                    [
+                        377,
+                        577
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330751,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.636Z",
+            "updatedAt": "2023-06-13T23:39:22.636Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        151
+                    ],
+                    [
+                        226,
+                        638
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6330750,
+            "classId": 8718,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:39:22.635Z",
+            "updatedAt": "2023-06-13T23:39:22.635Z",
+            "tags": [],
+            "classTitle": "minibus",
+            "points": {
+                "exterior": [
+                    [
+                        377,
+                        329
+                    ],
+                    [
+                        475,
+                        503
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

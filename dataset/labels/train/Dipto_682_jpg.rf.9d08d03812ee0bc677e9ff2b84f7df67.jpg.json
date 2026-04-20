@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 414
+    },
+    "objects": [
+        {
+            "id": 6339465,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.509Z",
+            "updatedAt": "2023-06-13T23:42:04.509Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        165,
+                        314
+                    ],
+                    [
+                        296,
+                        458
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339464,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.508Z",
+            "updatedAt": "2023-06-13T23:42:04.508Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        126,
+                        364
+                    ],
+                    [
+                        150,
+                        391
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339463,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.507Z",
+            "updatedAt": "2023-06-13T23:42:04.507Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        149,
+                        360
+                    ],
+                    [
+                        174,
+                        409
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6339462,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:04.506Z",
+            "updatedAt": "2023-06-13T23:42:04.506Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        132,
+                        390
+                    ],
+                    [
+                        152,
+                        418
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

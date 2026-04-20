@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 477
+    },
+    "objects": [
+        {
+            "id": 6337434,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.258Z",
+            "updatedAt": "2023-06-13T23:41:24.258Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        81,
+                        286
+                    ],
+                    [
+                        196,
+                        390
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337433,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.258Z",
+            "updatedAt": "2023-06-13T23:41:24.258Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        239,
+                        310
+                    ],
+                    [
+                        405,
+                        467
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337432,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.257Z",
+            "updatedAt": "2023-06-13T23:41:24.257Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        207,
+                        308
+                    ],
+                    [
+                        249,
+                        380
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337431,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.257Z",
+            "updatedAt": "2023-06-13T23:41:24.257Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        260,
+                        291
+                    ],
+                    [
+                        278,
+                        311
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337430,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.256Z",
+            "updatedAt": "2023-06-13T23:41:24.256Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        187
+                    ],
+                    [
+                        85,
+                        440
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

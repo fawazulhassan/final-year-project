@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 515
+    },
+    "objects": [
+        {
+            "id": 6343723,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:18.731Z",
+            "updatedAt": "2023-06-13T23:43:18.731Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        24,
+                        289
+                    ],
+                    [
+                        240,
+                        623
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343722,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:18.730Z",
+            "updatedAt": "2023-06-13T23:43:18.730Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        325,
+                        432
+                    ],
+                    [
+                        511,
+                        638
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343721,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:18.730Z",
+            "updatedAt": "2023-06-13T23:43:18.730Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        18,
+                        295
+                    ],
+                    [
+                        69,
+                        342
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6343720,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:18.729Z",
+            "updatedAt": "2023-06-13T23:43:18.729Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        294
+                    ],
+                    [
+                        36,
+                        423
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

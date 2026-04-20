@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 307,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6338309,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.919Z",
+            "updatedAt": "2023-06-13T23:41:40.919Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        87,
+                        156
+                    ],
+                    [
+                        108,
+                        204
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338308,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:40.919Z",
+            "updatedAt": "2023-06-13T23:41:40.919Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        136,
+                        144
+                    ],
+                    [
+                        151,
+                        178
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

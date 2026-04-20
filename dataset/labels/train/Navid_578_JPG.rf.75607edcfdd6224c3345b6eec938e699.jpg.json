@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 480
+    },
+    "objects": [
+        {
+            "id": 6346538,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:03.445Z",
+            "updatedAt": "2023-06-13T23:44:03.445Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        2,
+                        367
+                    ],
+                    [
+                        77,
+                        531
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346537,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:03.445Z",
+            "updatedAt": "2023-06-13T23:44:03.445Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        179,
+                        315
+                    ],
+                    [
+                        214,
+                        348
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346536,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:03.445Z",
+            "updatedAt": "2023-06-13T23:44:03.445Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        226,
+                        315
+                    ],
+                    [
+                        304,
+                        415
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346535,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:03.444Z",
+            "updatedAt": "2023-06-13T23:44:03.444Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        217,
+                        316
+                    ],
+                    [
+                        227,
+                        328
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

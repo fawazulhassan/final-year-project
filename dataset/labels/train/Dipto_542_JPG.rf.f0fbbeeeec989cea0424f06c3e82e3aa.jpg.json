@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 558,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6347804,
+            "classId": 8713,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:28.710Z",
+            "updatedAt": "2023-06-13T23:44:28.710Z",
+            "tags": [],
+            "classTitle": "bicycle",
+            "points": {
+                "exterior": [
+                    [
+                        213,
+                        212
+                    ],
+                    [
+                        378,
+                        493
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347803,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:28.710Z",
+            "updatedAt": "2023-06-13T23:44:28.710Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        92
+                    ],
+                    [
+                        82,
+                        353
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347802,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:28.709Z",
+            "updatedAt": "2023-06-13T23:44:28.709Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        67
+                    ],
+                    [
+                        25,
+                        102
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

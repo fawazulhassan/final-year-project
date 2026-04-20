@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6342145,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.375Z",
+            "updatedAt": "2023-06-13T23:42:50.375Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        8,
+                        34
+                    ],
+                    [
+                        46,
+                        52
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342144,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.375Z",
+            "updatedAt": "2023-06-13T23:42:50.375Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        102,
+                        12
+                    ],
+                    [
+                        129,
+                        25
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342143,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.374Z",
+            "updatedAt": "2023-06-13T23:42:50.374Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        43,
+                        24
+                    ],
+                    [
+                        76,
+                        41
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342142,
+            "classId": 8725,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.374Z",
+            "updatedAt": "2023-06-13T23:42:50.374Z",
+            "tags": [],
+            "classTitle": "suv",
+            "points": {
+                "exterior": [
+                    [
+                        74,
+                        19
+                    ],
+                    [
+                        98,
+                        32
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342141,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.374Z",
+            "updatedAt": "2023-06-13T23:42:50.374Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        380,
+                        2
+                    ],
+                    [
+                        485,
+                        49
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342140,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.374Z",
+            "updatedAt": "2023-06-13T23:42:50.374Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        10,
+                        244
+                    ],
+                    [
+                        622,
+                        359
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

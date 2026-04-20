@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 491
+    },
+    "objects": [
+        {
+            "id": 6349342,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.598Z",
+            "updatedAt": "2023-06-13T23:44:48.598Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        158,
+                        295
+                    ],
+                    [
+                        232,
+                        380
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349341,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:48.598Z",
+            "updatedAt": "2023-06-13T23:44:48.598Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        120,
+                        296
+                    ],
+                    [
+                        160,
+                        346
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

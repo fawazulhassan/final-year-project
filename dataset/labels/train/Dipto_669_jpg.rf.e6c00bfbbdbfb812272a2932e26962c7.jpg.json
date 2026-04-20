@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 480
+    },
+    "objects": [
+        {
+            "id": 6337411,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.254Z",
+            "updatedAt": "2023-06-13T23:41:24.254Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        251,
+                        440
+                    ],
+                    [
+                        264,
+                        465
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337410,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.254Z",
+            "updatedAt": "2023-06-13T23:41:24.254Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        263,
+                        424
+                    ],
+                    [
+                        276,
+                        440
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6337409,
+            "classId": 8723,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:24.254Z",
+            "updatedAt": "2023-06-13T23:41:24.254Z",
+            "tags": [],
+            "classTitle": "rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        299,
+                        431
+                    ],
+                    [
+                        315,
+                        456
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

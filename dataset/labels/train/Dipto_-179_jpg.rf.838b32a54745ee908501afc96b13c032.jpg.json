@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6348611,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.533Z",
+            "updatedAt": "2023-06-13T23:44:41.533Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        469,
+                        8
+                    ],
+                    [
+                        600,
+                        79
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348610,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.533Z",
+            "updatedAt": "2023-06-13T23:44:41.533Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        379,
+                        7
+                    ],
+                    [
+                        436,
+                        44
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348609,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.533Z",
+            "updatedAt": "2023-06-13T23:44:41.533Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        353,
+                        2
+                    ],
+                    [
+                        381,
+                        25
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348608,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.533Z",
+            "updatedAt": "2023-06-13T23:44:41.533Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        313,
+                        8
+                    ],
+                    [
+                        329,
+                        27
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348607,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.532Z",
+            "updatedAt": "2023-06-13T23:44:41.532Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        304,
+                        12
+                    ],
+                    [
+                        311,
+                        17
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6348606,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:41.532Z",
+            "updatedAt": "2023-06-13T23:44:41.532Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        433,
+                        7
+                    ],
+                    [
+                        460,
+                        17
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

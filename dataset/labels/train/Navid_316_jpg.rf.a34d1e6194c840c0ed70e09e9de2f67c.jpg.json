@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 360
+    },
+    "objects": [
+        {
+            "id": 6338750,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.816Z",
+            "updatedAt": "2023-06-13T23:41:48.816Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        51,
+                        311
+                    ],
+                    [
+                        298,
+                        615
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338749,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.815Z",
+            "updatedAt": "2023-06-13T23:41:48.815Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        192,
+                        299
+                    ],
+                    [
+                        359,
+                        496
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338748,
+            "classId": 8717,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:48.815Z",
+            "updatedAt": "2023-06-13T23:41:48.815Z",
+            "tags": [],
+            "classTitle": "human hauler",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        265
+                    ],
+                    [
+                        90,
+                        395
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

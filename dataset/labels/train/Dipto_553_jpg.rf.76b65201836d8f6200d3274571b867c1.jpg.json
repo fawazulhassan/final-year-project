@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 295,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6349912,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:58.968Z",
+            "updatedAt": "2023-06-13T23:44:58.968Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        44,
+                        63
+                    ],
+                    [
+                        327,
+                        291
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6349911,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:58.968Z",
+            "updatedAt": "2023-06-13T23:44:58.968Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        360,
+                        193
+                    ],
+                    [
+                        364,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

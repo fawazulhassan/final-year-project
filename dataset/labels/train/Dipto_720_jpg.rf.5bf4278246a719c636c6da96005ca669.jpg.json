@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 496
+    },
+    "objects": [
+        {
+            "id": 6335847,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:57.036Z",
+            "updatedAt": "2023-06-13T23:40:57.036Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        34,
+                        445
+                    ],
+                    [
+                        148,
+                        542
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6335846,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:57.035Z",
+            "updatedAt": "2023-06-13T23:40:57.035Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        442
+                    ],
+                    [
+                        48,
+                        638
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6335845,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:57.035Z",
+            "updatedAt": "2023-06-13T23:40:57.035Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        260,
+                        444
+                    ],
+                    [
+                        292,
+                        476
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

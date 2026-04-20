@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 360,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6342123,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.373Z",
+            "updatedAt": "2023-06-13T23:42:50.373Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        3,
+                        52
+                    ],
+                    [
+                        636,
+                        359
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342122,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.373Z",
+            "updatedAt": "2023-06-13T23:42:50.373Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        280,
+                        23
+                    ],
+                    [
+                        300,
+                        51
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342121,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.373Z",
+            "updatedAt": "2023-06-13T23:42:50.373Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        371,
+                        12
+                    ],
+                    [
+                        389,
+                        37
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6342120,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:50.373Z",
+            "updatedAt": "2023-06-13T23:42:50.373Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        332,
+                        22
+                    ],
+                    [
+                        341,
+                        34
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

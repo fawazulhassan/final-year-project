@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 371,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6347451,
+            "classId": 8720,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.395Z",
+            "updatedAt": "2023-06-13T23:44:20.395Z",
+            "tags": [],
+            "classTitle": "motorbike",
+            "points": {
+                "exterior": [
+                    [
+                        237,
+                        177
+                    ],
+                    [
+                        280,
+                        265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6347450,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:20.395Z",
+            "updatedAt": "2023-06-13T23:44:20.395Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        282,
+                        191
+                    ],
+                    [
+                        310,
+                        222
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

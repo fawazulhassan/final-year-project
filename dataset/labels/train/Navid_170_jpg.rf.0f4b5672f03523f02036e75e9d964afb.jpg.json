@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 306,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6340945,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:28.578Z",
+            "updatedAt": "2023-06-13T23:42:28.578Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        43,
+                        43
+                    ],
+                    [
+                        152,
+                        161
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6340944,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:42:28.578Z",
+            "updatedAt": "2023-06-13T23:42:28.578Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        212,
+                        64
+                    ],
+                    [
+                        239,
+                        98
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

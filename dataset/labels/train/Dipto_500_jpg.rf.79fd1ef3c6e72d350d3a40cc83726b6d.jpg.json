@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 199,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6333804,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:17.049Z",
+            "updatedAt": "2023-06-13T23:40:17.049Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        499,
+                        53
+                    ],
+                    [
+                        629,
+                        191
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333803,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:17.049Z",
+            "updatedAt": "2023-06-13T23:40:17.049Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        479,
+                        123
+                    ],
+                    [
+                        501,
+                        150
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333802,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:17.049Z",
+            "updatedAt": "2023-06-13T23:40:17.049Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        440,
+                        112
+                    ],
+                    [
+                        479,
+                        160
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

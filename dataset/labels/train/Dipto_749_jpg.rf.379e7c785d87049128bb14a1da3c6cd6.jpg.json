@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 444
+    },
+    "objects": [
+        {
+            "id": 6346295,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.139Z",
+            "updatedAt": "2023-06-13T23:44:00.139Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        250,
+                        199
+                    ],
+                    [
+                        440,
+                        572
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346294,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.139Z",
+            "updatedAt": "2023-06-13T23:44:00.139Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        226,
+                        374
+                    ],
+                    [
+                        249,
+                        419
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346293,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.139Z",
+            "updatedAt": "2023-06-13T23:44:00.139Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        175,
+                        371
+                    ],
+                    [
+                        212,
+                        408
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346292,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.139Z",
+            "updatedAt": "2023-06-13T23:44:00.139Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        119,
+                        344
+                    ],
+                    [
+                        155,
+                        393
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346291,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.138Z",
+            "updatedAt": "2023-06-13T23:44:00.138Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        185,
+                        353
+                    ],
+                    [
+                        222,
+                        380
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6346290,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:44:00.138Z",
+            "updatedAt": "2023-06-13T23:44:00.138Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        153,
+                        361
+                    ],
+                    [
+                        165,
+                        386
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

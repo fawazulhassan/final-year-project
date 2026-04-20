@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 301,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6334986,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:42.851Z",
+            "updatedAt": "2023-06-13T23:40:42.851Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        87,
+                        143
+                    ],
+                    [
+                        240,
+                        265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334985,
+            "classId": 8715,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:42.851Z",
+            "updatedAt": "2023-06-13T23:40:42.851Z",
+            "tags": [],
+            "classTitle": "car",
+            "points": {
+                "exterior": [
+                    [
+                        305,
+                        197
+                    ],
+                    [
+                        310,
+                        201
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

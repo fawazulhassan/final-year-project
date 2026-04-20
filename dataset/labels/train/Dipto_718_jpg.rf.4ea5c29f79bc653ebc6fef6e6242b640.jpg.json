@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 528
+    },
+    "objects": [
+        {
+            "id": 6333517,
+            "classId": 8712,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.722Z",
+            "updatedAt": "2023-06-13T23:40:13.722Z",
+            "tags": [],
+            "classTitle": "auto rickshaw",
+            "points": {
+                "exterior": [
+                    [
+                        310,
+                        426
+                    ],
+                    [
+                        332,
+                        453
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333516,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.721Z",
+            "updatedAt": "2023-06-13T23:40:13.721Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        284,
+                        413
+                    ],
+                    [
+                        309,
+                        443
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333515,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.721Z",
+            "updatedAt": "2023-06-13T23:40:13.721Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        262,
+                        426
+                    ],
+                    [
+                        283,
+                        447
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333514,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.721Z",
+            "updatedAt": "2023-06-13T23:40:13.721Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        183,
+                        406
+                    ],
+                    [
+                        225,
+                        463
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6333513,
+            "classId": 8729,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:13.721Z",
+            "updatedAt": "2023-06-13T23:40:13.721Z",
+            "tags": [],
+            "classTitle": "van",
+            "points": {
+                "exterior": [
+                    [
+                        221,
+                        423
+                    ],
+                    [
+                        237,
+                        450
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

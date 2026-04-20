@@ -1,0 +1,154 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 314,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6334122,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.548Z",
+            "updatedAt": "2023-06-13T23:40:25.548Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        335,
+                        31
+                    ],
+                    [
+                        397,
+                        99
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334121,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.546Z",
+            "updatedAt": "2023-06-13T23:40:25.546Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        255,
+                        44
+                    ],
+                    [
+                        285,
+                        70
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334120,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.544Z",
+            "updatedAt": "2023-06-13T23:40:25.544Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        613,
+                        53
+                    ],
+                    [
+                        639,
+                        85
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334119,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.541Z",
+            "updatedAt": "2023-06-13T23:40:25.541Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        498,
+                        49
+                    ],
+                    [
+                        527,
+                        74
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334118,
+            "classId": 8714,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.540Z",
+            "updatedAt": "2023-06-13T23:40:25.540Z",
+            "tags": [],
+            "classTitle": "bus",
+            "points": {
+                "exterior": [
+                    [
+                        548,
+                        56
+                    ],
+                    [
+                        568,
+                        80
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6334117,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:40:25.539Z",
+            "updatedAt": "2023-06-13T23:40:25.539Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        454,
+                        47
+                    ],
+                    [
+                        471,
+                        69
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

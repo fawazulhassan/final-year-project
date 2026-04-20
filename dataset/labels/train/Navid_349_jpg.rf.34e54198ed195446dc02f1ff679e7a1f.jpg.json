@@ -1,0 +1,58 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 315,
+        "width": 640
+    },
+    "objects": [
+        {
+            "id": 6345157,
+            "classId": 8727,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:43.778Z",
+            "updatedAt": "2023-06-13T23:43:43.778Z",
+            "tags": [],
+            "classTitle": "three wheelers -CNG-",
+            "points": {
+                "exterior": [
+                    [
+                        507,
+                        196
+                    ],
+                    [
+                        584,
+                        280
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6345156,
+            "classId": 8721,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:43:43.777Z",
+            "updatedAt": "2023-06-13T23:43:43.777Z",
+            "tags": [],
+            "classTitle": "pickup",
+            "points": {
+                "exterior": [
+                    [
+                        584,
+                        205
+                    ],
+                    [
+                        616,
+                        238
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

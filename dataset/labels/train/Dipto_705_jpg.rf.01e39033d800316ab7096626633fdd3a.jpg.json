@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 640,
+        "width": 513
+    },
+    "objects": [
+        {
+            "id": 6338041,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.647Z",
+            "updatedAt": "2023-06-13T23:41:36.647Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        277,
+                        340
+                    ],
+                    [
+                        454,
+                        529
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338040,
+            "classId": 8728,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.647Z",
+            "updatedAt": "2023-06-13T23:41:36.647Z",
+            "tags": [],
+            "classTitle": "truck",
+            "points": {
+                "exterior": [
+                    [
+                        138,
+                        418
+                    ],
+                    [
+                        175,
+                        458
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 6338039,
+            "classId": 8719,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "az@datasetninja.com",
+            "createdAt": "2023-06-13T23:41:36.646Z",
+            "updatedAt": "2023-06-13T23:41:36.646Z",
+            "tags": [],
+            "classTitle": "minivan",
+            "points": {
+                "exterior": [
+                    [
+                        208,
+                        434
+                    ],
+                    [
+                        245,
+                        467
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
